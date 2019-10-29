@@ -13,10 +13,6 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     <js-module src="www/FirebaseAnalytics.js" name="FirebaseAnalytics">
         <merges target="cordova.plugins.firebase.analytics" />
     </js-module>
-
-    <engines>
-        <engine name="cordova-ios" version=">=5.0.0"/>
-    </engines>
            
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
